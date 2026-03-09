@@ -52,9 +52,6 @@ To manage this scenario:
 
 Due to the large dataset size, this calculation was performed **once**, and results were pasted as **static values** to improve performance.
 
-> **Special Note:**
-> In similar datasets, discounted purchases (e.g., buying 10 items but being charged for 8) may create discrepancies during return transactions. Such scenarios require additional validation when performing revenue calculations.
-
 ### 3. Invalid Data Filtering
 
 Transactions were filtered using **regex conditions** applied within QUERY operations.
